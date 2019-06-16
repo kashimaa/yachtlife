@@ -1,0 +1,107 @@
+
+    body { margin:0; padding:0; }
+    #map { position:absolute; top:0; bottom:0; width:100%; }
+    #menu {
+    position: absolute;
+    background: #fff;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    }
+
+
+/* image size */
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    img {
+        padding: 0;
+        display: block;
+        margin: 0 auto;
+        max-height: 100%;
+        max-width: 100%;
+    }
+/* image size */
+
+
+/* zoom image on hover */
+
+.zoom {
+/* padding: 50px; */
+/* background-color: green; */
+transition: transform .2s; /* Animation */
+max-height: 100%;
+max-width: 100%;
+margin: 0 auto;
+}
+
+.zoom:hover {
+transform: scale(3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+/* zoom image on hover */
+
+
+
+
+.map {
+    position: absolute;
+    right: 0px;
+    left: 350px;
+    height: 100%;
+    top: 0;
+    /* z-index:-1; */
+}
+
+.sidebar {
+    position: absolute;
+    background-color: white;
+    left: 0px;
+    width: 350px;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+    padding: 20px;
+    font-size: 16px;
+    opacity: 1;
+    z-index:1;
+}
+
+
+.menu {
+    right:0px;
+    bottom:0px;
+    /* position: absolute;
+    background-color: white;
+    left: 0px;
+    width: 350px;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+    padding: 20px;
+    font-size: 16px;
+    opacity: 0.5;
+    z-index:1; */
+}
+
+.mapboxgl-ctrl-attrib-inner, .mapboxgl-ctrl, mapboxgl-ctrl-attrib {
+  visibility: hidden;
+}
+
+.legend-title {
+  opacity: 1;
+  background-color: blue;
+}
+
+.card {
+  border-style: solid;
+  margin: 5px;
+  cursor: pointer;
+}
+.card:hover { background-color: #ADD8E6; }
+
+.trip-description, .trip-name{
+  /* border-style: solid; */
+  margin: 8px;
+}
