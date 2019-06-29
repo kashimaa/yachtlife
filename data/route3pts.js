@@ -7,7 +7,7 @@ var route3pts_geojson = {
         "marker-color": "#7e7e7e",
         "marker-size": "medium",
         "marker-symbol": "",
-        "description": "New York City - The big apple!",
+        "description": "The big apple!",
         "place": "New York City",
         "photo": "https://images.unsplash.com/photo-1546436836-07a91091f160?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1053&q=80"
       },
@@ -24,7 +24,7 @@ var route3pts_geojson = {
       "properties": {
         "marker-color": "",
         "marker-size": "",
-        "description": "Cape May - What a beautiful place!",
+        "description": "What a beautiful place!",
         "place": "Cape May",
         "photo": "https://images.unsplash.com/photo-1500080628126-901233e80205?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1049&q=80"
       },
@@ -41,7 +41,7 @@ var route3pts_geojson = {
       "properties": {
         "marker-size": "",
         "marker-color": "",
-        "description": "Norfolk???",
+        "description": "I bet they have nice trees here",
         "place": "Norfolk",
         "photo": "https://images.unsplash.com/photo-1529528070131-eda9f3e90919?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80"
       },
@@ -58,7 +58,7 @@ var route3pts_geojson = {
       "properties": {
         "marker-symbol": "",
         "marker-color": "",
-        "description": "Wilmington - What a wonderful city!!!",
+        "description": "What a wonderful city!!!",
         "photo": "https://images.unsplash.com/photo-1511493321267-ccd4cfc31af7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80",
         "place": "Wilmington",
         "marker-size": ""
@@ -74,7 +74,7 @@ var route3pts_geojson = {
     {
       "type": "Feature",
       "properties": {
-        "description": "Charleston, SC. Capital of the South",
+        "description": "Capital of the South",
         "photo": "https://images.unsplash.com/photo-1500325478868-229dbf064350?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
         "place": "Charleston"
       },
@@ -89,7 +89,7 @@ var route3pts_geojson = {
     {
       "type": "Feature",
       "properties": {
-        "description": "Savanna, GA. Historic old icty",
+        "description": "Historic old city",
         "photo": "https://images.unsplash.com/photo-1467767079704-1e5389c42c9e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80",
         "place": "Savanna"
       },
