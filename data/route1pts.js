@@ -1,4 +1,4 @@
-var route1pts =
+var route1pts_geojson =
 
 {
   "type": "FeatureCollection",

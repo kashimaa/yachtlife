@@ -7,12 +7,13 @@
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css' rel='stylesheet' />
     <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Oleo+Script&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <div class="sidebar">
     <div class="legend-title">
-      <img src="https://halcyonseas.com//wp-content/uploads/2019/03/halcyon-seas-logo.png">
+      <a href="https://halcyonseas.com/halcyon-seas-charter-availability/"><img src="https://halcyonseas.com//wp-content/uploads/2019/03/halcyon-seas-logo.png"></a>
       <h1> Welcome to Halcyon Seas </h1>
       <p> Use this map to help choose the perfect get away </p>
      </div>
@@ -29,6 +30,11 @@
         <div class="trip-description"> The Autumn color of coastal Maine is one of the most beautiful natural wonders of the world. Take ten days to weave among the archipeligo off the coast of Acadia National park and experience the dramatic landscapes from the comforts of the boat. You'll get up close and personal with dozens of small islands.  </div>
       </div>
 
+      <div class="card" id="newyork">
+        <h3 class="trip-name"> 14 days around the Mid Atlantic</h3>
+        <div class="trip-description"> The mid Atlantic has a lot to offer the casual yachter. From New York City's amazing harbor, head south off the coast of New Jersey to visit a number of cute towns, harbors, and beautiful landscapes. </div>
+      </div>
+
 
     </div>
 
@@ -36,27 +42,30 @@
 
   <div id='map' class="map"></div>
 
-  <div class="menu" id='menu'>
-  <input id='streets-v11' type='radio' name='rtoggle' value='streets' checked='checked'>
-  <label for='streets'>streets</label>
-  <input id='light-v10' type='radio' name='rtoggle' value='light'>
-  <label for='light'>light</label>
-  <input id='dark-v10' type='radio' name='rtoggle' value='dark'>
-  <label for='dark'>dark</label>
-  <input id='outdoors-v11' type='radio' name='rtoggle' value='outdoors'>
-  <label for='outdoors'>outdoors</label>
-  <input id='satellite-v9' type='radio' name='rtoggle' value='satellite'>
-  <label for='satellite'>satellite</label>
+    <div class="menu" id='menu'>
+    <input id='streets-v11' type='radio' name='rtoggle' value='streets' checked='checked'>
+    <label for='streets'>streets</label>
+    <input id='light-v10' type='radio' name='rtoggle' value='light'>
+    <label for='light'>light</label>
+    <input id='dark-v10' type='radio' name='rtoggle' value='dark'>
+    <label for='dark'>dark</label>
+    <input id='outdoors-v11' type='radio' name='rtoggle' value='outdoors'>
+    <label for='outdoors'>outdoors</label>
+    <input id='satellite-v9' type='radio' name='rtoggle' value='satellite'>
+    <label for='satellite'>satellite</label>
   </div>
 
 
 
-<script src="route1.js"></script>
-<script src="route1pts.js"></script>
-<script src="route2.js"></script>
-<script src="route1pts.js"></script>
-<script src="data.js"></script>
-<script src="main.js"></script>
+<script src="data/route1.js"></script>
+<script src="data/route2.js"></script>
+<script src="data/route3.js"></script>
+<script src="data/route1pts.js"></script>
+<script src="data/route2pts.js"></script>
+<script src="data/route3pts.js"></script>
+<script src="data/data.js"></script>
+<script src="js/main.js"></script>
+<script src="js/popups.js"></script>
 
 </body>
 </html>
