@@ -96,21 +96,35 @@ transform: scale(3); /* (150% zoom - Note: if the zoom is too large, it will go 
   background-color: #B3E5FC;
   padding: 10px;
   margin: 5px;
+  border-radius: 5px;
 }
 
 .legend-title > h1 {
   font-family: 'Oleo Script', cursive;
   font-size: 30px;
-
 }
 
 .card {
-  border: solid 1px;
+  border: solid 2px;
   margin: 5px;
   cursor: pointer;
   padding: 10px;
   background: #FFFFFF99;
+  border-radius: 10px;
 }
+
+.card > h3 {
+  font-weight: 900;
+  /* font-size: 2em; */
+  /* font-size: 100px; */
+}
+
+.trip-name {
+  font-weight: 900;
+  font-size: 1.5em;
+}
+
+
 .card:hover { background-color: #B3E5FC; }
 
 .trip-description, .trip-name{
@@ -121,4 +135,21 @@ transform: scale(3); /* (150% zoom - Note: if the zoom is too large, it will go 
 
 .mapboxgl-popup-anchor-bottom {
   max-width: 500px !important;
+}
+
+
+.mapboxgl-popup {
+max-width: 400px;
+font: 13px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+
+.menu {
+  border: solid .5px;
+  margin: 5px;
+  /* margin: 5px;
+  cursor: pointer;
+  padding: 10px;
+  background: #FFFFFF99; */
+  border-radius: 5px;
 }

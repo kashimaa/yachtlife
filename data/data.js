@@ -13,7 +13,7 @@ var route1 =  {
     },
     "paint": {
         "line-color": "#1a237e",
-        "line-width": 2
+        "line-width": 4
 
     }
 };
@@ -34,7 +34,7 @@ var route2 =  {
     },
     "paint": {
         "line-color": "#7f0000",
-        "line-width": 2
+        "line-width": 4
     }
 };
 
@@ -54,7 +54,7 @@ var route3 =  {
     },
     "paint": {
         "line-color": "#1b5e20",
-        "line-width": 2
+        "line-width": 4
     }
 };
 
@@ -73,8 +73,8 @@ var route1pts =  {
         // "circle-color": "#000000"
     },
     "paint": {
-"circle-radius": 6,
-"circle-color": "#000000"
+"circle-radius": 7,
+"circle-color": "#1a237e"
 },
 
 };
@@ -89,8 +89,8 @@ var route2pts =  {
         "data": route2pts_geojson
       },
       "paint": {
-  "circle-radius": 6,
-  "circle-color": "#000000"
+  "circle-radius": 7,
+  "circle-color": "#7f0000"
   },
 
   };
@@ -106,8 +106,8 @@ var route3pts =  {
         "data": route3pts_geojson
       },
       "paint": {
-  "circle-radius": 6,
-  "circle-color": "#000000"
+  "circle-radius": 7,
+  "circle-color": "#1b5e20"
   },
 
   };
