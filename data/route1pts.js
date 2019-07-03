@@ -22,10 +22,10 @@ var route1pts_geojson =
     {
       "type": "Feature",
       "properties": {
-        "description": "A really nice harbor",
+        "description": "So much hotness",
         "place": "Freeport",
         "day": 2,
-        "photo": "https://images.unsplash.com/photo-1548091094-30eacb85183a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1070&q=80"
+        "photo": "https://images.unsplash.com/photo-1491672736592-902f2f08d0b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1031&q=80"
       },
       "geometry": {
         "type": "Point",
@@ -102,10 +102,10 @@ var route1pts_geojson =
     {
       "type": "Feature",
       "properties": {
-        "description": "So much hotness",
+        "description": "A great harbor",
         "place": "San Andros",
         "day": 7,
-        "photo": "https://images.unsplash.com/photo-1491672736592-902f2f08d0b7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1031&q=80"
+        "photo": "https://images.unsplash.com/photo-1548091094-30eacb85183a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1070&q=80"
       },
       "geometry": {
         "type": "Point",
